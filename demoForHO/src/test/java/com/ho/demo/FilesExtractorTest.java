@@ -39,7 +39,7 @@ public class FilesExtractorTest {
 	public void testScanDirectoryForAllFiles() throws Exception{
 		List<File> validFilesInDirectory = fileExtractor.scanDirectory();
 		
-		assertEquals(4, validFilesInDirectory.size());
+		assertEquals(3, validFilesInDirectory.size());
 	}
 
 }
